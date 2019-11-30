@@ -35,9 +35,7 @@ describe('fix', () => {
 			})
 			.then((output) => {
 				// Remove the path to tmpDir
-				const cleanedResults = output.results.map((r) =>
-					Object.assign({}, r, { source: 'stylesheet.css' }),
-				);
+				const cleanedResults = output.results.map((r) => ({ ...r, source: 'stylesheet.css' }));
 
 				expect(systemTestUtils.prepResults(cleanedResults)).toMatchSnapshot();
 			});
