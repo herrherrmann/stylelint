@@ -104,7 +104,7 @@
     "common-tags": "^1.8.0",
     "cp-file": "^7.0.0",
     "del": "^5.1.0",
-    "eslint": "^6.7.1",
+    "eslint": "^7.14.0",
     "eslint-config-stylelint": "^11.1.0",
     "file-exists-promise": "^1.0.2",
     "got": "^9.6.0",
