@@ -121,7 +121,7 @@
     "remark-preset-lint-consistent": "^2.0.3",
     "remark-preset-lint-recommended": "^3.0.3",
     "remark-validate-links": "^9.0.1",
-    "typescript": "^3.6.4"
+    "typescript": "^4.3.5"
   },
   "scripts": {
     "benchmark-rule": "node scripts/benchmark-rule.js",
